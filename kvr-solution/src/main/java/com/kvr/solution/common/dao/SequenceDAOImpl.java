@@ -1,5 +1,7 @@
 package com.kvr.solution.common.dao;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.FindAndModifyOptions;
 import org.springframework.data.mongodb.core.MongoOperations;
@@ -52,5 +54,4 @@ public class SequenceDAOImpl implements SequenceDAO {
 		  
 		  return seqId;
 	}
-
 }

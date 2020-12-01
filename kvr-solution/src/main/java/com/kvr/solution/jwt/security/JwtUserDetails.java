@@ -15,7 +15,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Getter;
 import lombok.Setter;
 
-@Document(collection = "masterUser")
+@Document(collection = "masteruser")
 @Getter
 @Setter
 public class JwtUserDetails implements UserDetails {
